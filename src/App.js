@@ -9,6 +9,7 @@ const style = {
 };
 
 function App() {
+  // eslint-disable-next-line
   const [user] = useAuthState(auth);
   // console.log(user);
   return (
